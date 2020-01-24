@@ -13,3 +13,5 @@ def run_guessing_game
     return "Not a valid input"
   end
 end
+
+run_guessing_game
