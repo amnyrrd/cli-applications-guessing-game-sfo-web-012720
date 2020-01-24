@@ -1,7 +1,7 @@
 # Code your solution here!
 def run_guessing_game
+  puts "Guess a number from 1 to 6"
   num = 1 + rand(6)
-  # puts "Guess a number from 1 to 6"
   input = gets.chomp
   if num == input
     p "You guessed the correct number!"
